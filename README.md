@@ -40,6 +40,16 @@ Ingresa una frase (o 'salir' para terminar): salir
 ¡Hasta luego!
 ```
 
+## Tests
+
+Para ejecutar los tests unitarios:
+
+```bash
+python3 -m unittest test_main.py
+```
+
+Los tests verifican la función `contar_letras` con varios casos: cadena vacía, solo letras, con espacios, números, puntuación, etc.
+
 ## Funcionalidades
 
 - Cuenta solo letras alfabéticas.
